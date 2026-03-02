@@ -1,0 +1,258 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]: Student Admin
+    - generic [ref=e6]:
+      - navigation [ref=e7]:
+        - link "Dashboard" [ref=e8] [cursor=pointer]:
+          - /url: http://localhost:8000/dashboard
+          - img [ref=e9]
+          - text: Dashboard
+        - paragraph [ref=e12]: General Management
+        - link "Colleges" [ref=e13] [cursor=pointer]:
+          - /url: http://localhost:8000/colleges
+          - img [ref=e14]
+          - text: Colleges
+        - link "Branches" [ref=e16] [cursor=pointer]:
+          - /url: http://localhost:8000/branches
+          - img [ref=e17]
+          - text: Branches
+        - link "Courses" [ref=e19] [cursor=pointer]:
+          - /url: http://localhost:8000/courses
+          - img [ref=e20]
+          - text: Courses
+        - link "Batches" [ref=e22] [cursor=pointer]:
+          - /url: http://localhost:8000/batches
+          - img [ref=e23]
+          - text: Batches
+        - link "Students" [ref=e25] [cursor=pointer]:
+          - /url: http://localhost:8000/students
+          - img [ref=e26]
+          - text: Students
+        - paragraph [ref=e30]: Financial
+        - link "Fee Records" [ref=e31] [cursor=pointer]:
+          - /url: http://localhost:8000/payments
+          - img [ref=e32]
+          - text: Fee Records
+        - link "Report" [ref=e34] [cursor=pointer]:
+          - /url: http://localhost:8000/reports
+          - img [ref=e35]
+          - text: Report
+        - paragraph [ref=e38]: System & Users
+        - link "Staff Accounts" [ref=e39] [cursor=pointer]:
+          - /url: http://localhost:8000/users
+          - img [ref=e40]
+          - text: Staff Accounts
+        - link "Access Control" [ref=e42] [cursor=pointer]:
+          - /url: http://localhost:8000/roles
+          - img [ref=e43]
+          - text: Access Control
+      - button "Sign Out" [ref=e47]:
+        - img [ref=e48]
+        - text: Sign Out
+  - generic [ref=e50]:
+    - banner [ref=e51]:
+      - generic [ref=e52]:
+        - button [ref=e53]:
+          - img [ref=e54]
+        - paragraph [ref=e57]: Saturday, 28 Feb 2026
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - paragraph [ref=e61]: Admin User
+          - paragraph [ref=e62]: Super Admin
+        - img "User Avatar" [ref=e64]
+    - main [ref=e66]:
+      - generic [ref=e67]:
+        - heading "Edit Student" [level=3] [ref=e68]
+        - generic [ref=e70]:
+          - heading "Personal Details" [level=4] [ref=e71]
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - generic [ref=e74]: Full Name *
+              - textbox "Full Name *" [ref=e75]:
+                - /placeholder: John Doe
+                - text: Arjun Mehta
+            - generic [ref=e76]:
+              - generic [ref=e77]: Roll Number *
+              - textbox "Roll Number *" [ref=e78]:
+                - /placeholder: R-2026-001
+                - text: STU0001
+            - generic [ref=e79]:
+              - generic [ref=e80]: Email Address
+              - textbox "Email Address" [ref=e81]:
+                - /placeholder: john@example.com
+                - text: arjun.mehta@example.com
+            - generic [ref=e82]:
+              - generic [ref=e83]: Mobile Number *
+              - textbox "Mobile Number *" [ref=e84]:
+                - /placeholder: "1234567890"
+                - text: "9184042091"
+            - generic [ref=e85]:
+              - generic [ref=e86]: Photo
+              - button "Photo" [ref=e87]
+            - generic [ref=e88]:
+              - generic [ref=e89]: Status *
+              - combobox "Status *" [ref=e90]:
+                - option "Admission Done" [selected]
+                - option "Ongoing"
+                - option "Placed"
+                - option "Dropped"
+          - heading "Address Details" [level=4] [ref=e91]
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - img [ref=e94]
+              - generic [ref=e97]: Current Address
+            - generic [ref=e98]:
+              - generic [ref=e99]: Address Line
+              - textbox "Address Line" [ref=e100]:
+                - /placeholder: House No, Street, Landmark...
+                - text: 849, MG Road, Bangalore
+            - generic [ref=e101]:
+              - generic [ref=e102]:
+                - generic [ref=e103]: City
+                - textbox "City" [ref=e104]:
+                  - /placeholder: e.g. Bangalore
+              - generic [ref=e105]:
+                - generic [ref=e106]: State
+                - textbox "State" [ref=e107]:
+                  - /placeholder: e.g. Karnataka
+              - generic [ref=e108]:
+                - generic [ref=e109]: Pincode
+                - textbox "Pincode" [ref=e110]:
+                  - /placeholder: "560001"
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - generic [ref=e113]:
+                - img [ref=e114]
+                - generic [ref=e116]: Permanent Address
+              - generic [ref=e117] [cursor=pointer]:
+                - checkbox "Same as Current" [ref=e118]
+                - generic [ref=e119]: Same as Current
+            - generic [ref=e120]:
+              - generic [ref=e121]: Address Line
+              - textbox "Address Line" [ref=e122]:
+                - /placeholder: House No, Street, Landmark...
+                - text: 41, Main Street, Bangalore
+            - generic [ref=e123]:
+              - generic [ref=e124]:
+                - generic [ref=e125]: City
+                - textbox "City" [ref=e126]:
+                  - /placeholder: e.g. Bangalore
+              - generic [ref=e127]:
+                - generic [ref=e128]: State
+                - textbox "State" [ref=e129]:
+                  - /placeholder: e.g. Karnataka
+              - generic [ref=e130]:
+                - generic [ref=e131]: Pincode
+                - textbox "Pincode" [ref=e132]:
+                  - /placeholder: "560001"
+          - heading "Academic Details" [level=4] [ref=e133]
+          - heading "Academic Details" [level=4] [ref=e134]
+          - generic [ref=e136]:
+            - generic [ref=e137]:
+              - generic [ref=e138]: Branch *
+              - combobox "Branch *" [ref=e139]:
+                - option "Select Branch"
+                - option "Main Branch"
+                - option "Mumbai Branch"
+                - option "Delhi Branch"
+                - option "Bangalore Branch"
+                - option "Pune Branch" [selected]
+            - generic [ref=e140]:
+              - generic [ref=e141]: Course *
+              - combobox "Course *" [ref=e142]:
+                - option "Select Course"
+                - option "Full Stack Web Development" [selected]
+                - option "Data Science & Machine Learning"
+                - option "Digital Marketing"
+                - option "Python Programming"
+                - option "Mobile App Development"
+            - generic [ref=e143]:
+              - generic [ref=e144]: Batch *
+              - combobox "Batch *" [ref=e145]:
+                - option "Select Batch"
+                - option "FSWD Batch 1 (upcoming)" [selected]
+                - option "FSWD Batch 2 (ongoing)"
+                - option "FSWD Batch 3 (completed)"
+                - option "FSWD Batch 1 (upcoming)"
+                - option "FSWD Batch 2 (ongoing)"
+                - option "FSWD Batch 3 (completed)"
+            - generic [ref=e146]:
+              - generic [ref=e147]: Highest Qualification
+              - textbox "Highest Qualification" [ref=e148]:
+                - /placeholder: B.Tech, MCA...
+                - text: B.Tech
+            - generic [ref=e149]:
+              - generic [ref=e150]: College Name
+              - textbox "College Name" [ref=e151]:
+                - /placeholder: University Name
+                - text: ABC College
+            - generic [ref=e152]:
+              - generic [ref=e153]: Percentage / CGPA
+              - spinbutton "Percentage / CGPA" [ref=e154]: "62.00"
+          - heading "Fee Details" [level=4] [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - img [ref=e159]
+              - generic [ref=e161]:
+                - paragraph [ref=e162]: Fee Status
+                - paragraph [ref=e163]: partial
+            - generic [ref=e164]:
+              - paragraph [ref=e165]: Total Paid Contributions
+              - paragraph [ref=e166]: ₹30,075.00
+          - generic [ref=e167]:
+            - heading "Fee Details" [level=3] [ref=e168]
+            - generic [ref=e169]:
+              - generic [ref=e170]:
+                - generic [ref=e171]: Tuition Fee *
+                - spinbutton "Tuition Fee *" [ref=e172]: "0.00"
+              - generic [ref=e173]:
+                - generic [ref=e174]: Admission Fee *
+                - spinbutton "Admission Fee *" [ref=e175]: "0.00"
+              - generic [ref=e176]:
+                - generic [ref=e177]: Exam Fee (Optional)
+                - spinbutton "Exam Fee (Optional)" [ref=e178]: "0.00"
+              - generic [ref=e179]:
+                - generic [ref=e180]: Hostel Fee (Optional)
+                - spinbutton "Hostel Fee (Optional)" [ref=e181]: "0.00"
+              - generic [ref=e182]:
+                - generic [ref=e183]: Bus Fee (Optional)
+                - spinbutton "Bus Fee (Optional)" [ref=e184]: "0.00"
+            - generic [ref=e185]:
+              - generic [ref=e186]:
+                - generic [ref=e187]: Total Fee *
+                - spinbutton "Total Fee *" [ref=e188]: "0.00"
+              - generic [ref=e189]:
+                - generic [ref=e190]: Discount
+                - spinbutton "Discount" [ref=e191]: "1347.00"
+              - generic [ref=e192]:
+                - generic [ref=e193]: Final Fee (Payable) *
+                - spinbutton "Final Fee (Payable) *" [ref=e194]: "0.00"
+            - generic [ref=e195]:
+              - generic [ref=e196]: Payment Type *
+              - combobox "Payment Type *" [ref=e197]:
+                - option "Full Payment"
+                - option "Installments" [selected]
+          - generic [ref=e198]:
+            - generic [ref=e199]: Notes
+            - textbox "Notes" [ref=e200]
+          - heading "Parent / Guardian Details" [level=4] [ref=e201]
+          - generic [ref=e202]:
+            - generic [ref=e203]:
+              - generic [ref=e204]: Relation Type *
+              - combobox "Relation Type *" [ref=e205]:
+                - option "Father"
+                - option "Mother"
+                - option "Guardian" [selected]
+            - generic [ref=e206]:
+              - generic [ref=e207]: Parent Name *
+              - textbox "Parent Name *" [ref=e208]: Kumar Arjun
+            - generic [ref=e209]:
+              - generic [ref=e210]: Parent Mobile *
+              - textbox "Parent Mobile *" [ref=e211]: "9166600816"
+            - generic [ref=e212]:
+              - generic [ref=e213]: Parent Email (Optional)
+              - textbox "Parent Email (Optional)" [ref=e214]
+          - generic [ref=e215]:
+            - link "Cancel" [ref=e216] [cursor=pointer]:
+              - /url: http://localhost:8000/students
+            - button "Update Student" [ref=e217]
